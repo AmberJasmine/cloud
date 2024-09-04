@@ -5,10 +5,11 @@ import org.junit.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EurekaserviceApplicationTests {
+public class EurekaServiceTests {
 
     @Test
-    void contextLoads() {
+    public void contextLoads() {
+        System.out.println("true = " + true);
     }
 
 }
